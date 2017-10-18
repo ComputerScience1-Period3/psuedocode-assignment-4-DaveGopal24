@@ -1,0 +1,21 @@
+Blackjack - Aaron Pandian
+
+How to play: The player to the left goes first and must decide whether to "stand" (stay with your cards) or "hit" 
+(ask for another card). Thus, a player may stand on the two cards originally dealt him, or he may ask the dealer for
+additional cards, one at a time, until he either decides to stand on the total (if it is 21 or under), goes "bust" (if it is over 21),
+or gets exactly 21  in which case he wins, unless another player does the same.
+
+Sequence:
+Once you recived the 2 cards from the dealer look over them
+  If the 2 cards have a vaule equal to 21- 
+    Say "stand" and place your cards on the table till everybody is done, then show your cards.
+  If the 2 cards dont equal 21 and are equal to or over 17 but under 21- 
+    Say "stand" and place your cards on the table till everybody is done, then show your cards.
+  If the 2 cards equal a value less than 17-
+    Say "hit" and you will recive another card
+      If the value of your 3 cards is still less than 17-
+        Say "hit" until you have a value over 17-
+          If your cards value are over 17 and under 21 then place your cards down and wait till everybody is done, then show your cards.
+          If not then you went over the value of 21, say "bust" and wait for the next round.
+          
+          
