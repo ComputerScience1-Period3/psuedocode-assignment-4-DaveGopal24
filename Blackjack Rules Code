@@ -5,7 +5,7 @@ How to play: The player to the left goes first and must decide whether to "stand
 additional cards, one at a time, until he either decides to stand on the total (if it is 21 or under), goes "bust" (if it is over 21),
 or gets exactly 21  in which case he wins, unless another player does the same.
 
-Sequence:
+While(){
 Once you recived the 2 cards from the dealer look over them
   If the 2 cards have a vaule equal to 21- 
     Say "stand" and place your cards on the table till everybody is done, then show your cards.
@@ -19,3 +19,36 @@ Once you recived the 2 cards from the dealer look over them
           If not then you went over the value of 21, say "bust" and wait for the next round.
           
           
+}
+______________$$$$$$$
+_____________$$$$$$$$$
+____________$$$$$$$$$$$
+____________$$$$$$$$$$$
+____________$$$$$$$$$$$
+_____________$$$$$$$$$
+_____$$$$$$_____$$$$$$$$$$
+____$$$$$$$$__$$$$$$_____$$$
+___$$$$$$$$$$$$$$$$_________$
+___$$$$$$$$$$$$$$$$______$__$
+___$$$$$$$$$$$$$$$$_____$$$_$
+___$$$$$$$$$$$__________$$$_$_____$$
+____$$$$$$$$$____________$$_$$$$_$$$$
+______$$$__$$__$$$______________$$$$
+___________$$____$_______________$
+____________$$____$______________$
+_____________$$___$$$__________$$
+_______________$$$_$$$$$$_$$$$$
+________________$$____$$_$$$$$
+_______________$$$$$___$$$$$$$$$$
+_______________$$$$$$$$$$$$$$$$$$$$
+_______________$$_$$$$$$$$$$$$$$__$$
+_______________$$__$$$$$$$$$$$___$_$
+______________$$$__$___$$$______$$$$
+______________$$$_$__________$$_$$$$
+______________$$$$$_________$$$$_$_$
+_______________$$$$__________$$$__$$
+_____$$$$_________$________________$
+___$$$___$$______$$$_____________$$
+__$___$$__$$_____$__$$$_____$$__$$
+_$$____$___$_______$$$$$$$$$$$$$
+_$_____$____$_____$$$$$$__$$$$$$$$
