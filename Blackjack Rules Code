@@ -1,21 +1,65 @@
 Blackjack - Aaron Pandian
 
-How to play: The player to the left goes first and must decide whether to "stand" (stay with your cards) or "hit" 
+How to play (insturctions): The player to the left goes first and must decide whether to "stand" (stay with your cards) or "hit" 
 (ask for another card). Thus, a player may stand on the two cards originally dealt him, or he may ask the dealer for
 additional cards, one at a time, until he either decides to stand on the total (if it is 21 or under), goes "bust" (if it is over 21),
-or gets exactly 21  in which case he wins, unless another player does the same.
+or gets exactly 21  in which case he wins, unless another player does the same. face cards equal 10, number cards equal thier number and 
+aces have a vaule of 11.
 
-Sequence:
+Instuctions Sequence:
+1. Dealer deals 2 cards to everybody
+2. Look over your cards and if the cards equal 21 say blackjack
+3. If they didnt equal 21 but are above a combined value of 17 then say "stand" and wait till everybody is done, then show your cards.
+4. If your cards didnt even reach a value 17 then say "hit" 
+5. If the combined value of the 3 cards are above 17 then say "stand" and wait till everybody is done, then show your cards.  
+6. If the combibed value of the 3 cards isnt equal to 21 then continue the process of saying "hit" until you have a combine value 
+of 17-21 you should have a total of 11 cards or less. 
+7. If the combined value of your cards at any point exceed 21 then say "bust" and wait till the next round.
+
+Instuctions Selection:
 Once you recived the 2 cards from the dealer look over them
-  If the 2 cards have a vaule equal to 21- 
-    Say "stand" and place your cards on the table till everybody is done, then show your cards.
-  If the 2 cards dont equal 21 and are equal to or over 17 but under 21- 
-    Say "stand" and place your cards on the table till everybody is done, then show your cards.
-  If the 2 cards equal a value less than 17-
+  If: the 2 cards have a vaule equal to 21 
+    Say "blackjack", then show your cards
+  Else If: the 2 cards dont equal 21 and are equal to or over 17 but under 21 
+    Say "stand" and place your cards on the table till everybody is done, then show your cards
+  Else: the 2 cards equal a value less than 17
     Say "hit" and you will recive another card
-      If the value of your 3 cards is still less than 17-
-        Say "hit" until you have a value over 17-
-          If your cards value are over 17 and under 21 then place your cards down and wait till everybody is done, then show your cards.
-          If not then you went over the value of 21, say "bust" and wait for the next round.
+      If: the value of your 3 cards is less than 17
+        Say "hit" until a value over 17 at the max ou should have 11 cards.
+          If: your cards value are over 17 and under 21
+            Place your cards down and wait till everybody is done, then show your cards
+          Else If: you went over the value of 21
+            Say "bust" and wait for the next round
           
+ Intructions Repitition:
+ 
+/* How to play black jack - Aaron Pandian
+Creating insructions for the user to play blackjack step-by-step */
+
+int start_deck = 2 random cards from card pile; 
+player_deck = number of cards above 2 and less than 11
+card_value = total value of all cards in player_deck
+int face_cards = 10 
+int Ace = 11
+int Number_cards = the number that displayed on thier card
+
+cout << "Enter starting deck total value" 
+cin >> start_deck
+
+If (start_deck equals 21);
+  cout << "Blackjack"; // won the game
+  
+Else if (16 < start_deck < 22);
+  cout << "Stand"; // stay with that number 
+  
+Else (0 < start_deck < 17);
+ cout << "hit"; // player recives another card
+ 
+ cout <<
+ 
+  If (The player_deck equals 
+
+  
+  
+
           
