@@ -26,9 +26,9 @@ Once you recived the 2 cards from the dealer look over them
     Say "hit" and you will recive another card
       If: the value of your 3 cards is less than 17
         Say "hit" until a value over 17 at the max ou should have 11 cards.
-          If: your cards value are over 17 and under 21
+        If: your cards value are over 17 and under 21
             Place your cards down and wait till everybody is done, then show your cards
-          Else If: you went over the value of 21
+        Else If: you went over the value of 21
             Say "bust" and wait for the next round
           
  Intructions Repitition:
@@ -37,11 +37,13 @@ Once you recived the 2 cards from the dealer look over them
 Creating insructions for the user to play blackjack step-by-step */
 
 int start_deck = 2 random cards from card pile; 
-player_deck = number of cards above 2 and less than 11
+player_deck = number of cards the player has // above 2 and less than 11
 card_value = total value of all cards in player_deck
 int face_cards = 10 
 int Ace = 11
 int Number_cards = the number that displayed on thier card
+
+void main {
 
 cout << "Enter starting deck total value" 
 cin >> start_deck
@@ -55,9 +57,33 @@ Else if (16 < start_deck < 22);
 Else (0 < start_deck < 17);
  cout << "hit"; // player recives another card
  
- cout <<
+  If (The player_deck equals value less than 17);
+    cout << "hit";
  
-  If (The player_deck equals 
+  for (size_t i = 0; i < until equals value < 16 and > 21; i++) {
+    
+    int start_deck = 2 random cards from card pile; 
+    player_deck = number of cards the player has // above 2 and less than 11
+    card_value = total value of all cards in player_deck
+    int face_cards = 10 
+    int Ace = 11
+    int Number_cards = the number that displayed on thier card
+    
+    If (player_deck equals 21);
+      cout << "Blackjack"; // won the game
+  
+    Else if (16 < player_deck < 22);
+      cout << "Stand"; // stay with that number 
+  
+    Else (0 < player_deck < 17);
+      cout << "hit"; // player recives another card
+ 
+  }
+ 
+ pause();
+ 
+ }
+  
 
   
   
