@@ -1,6 +1,10 @@
 Blackjack - Aaron Pandian
 
-How to play (insturctions): The player to the left goes first and must decide whether to "stand" (stay with your cards) or "hit" 
+Requirements:
+1 deck of cards containing 52 cards (excluding jokers), 1 or more players
+
+How to play (insturctions): 
+The player to the left of the dealer goes first and must decide whether to "stand" (stay with your cards) or "hit" 
 (ask for another card). Thus, a player may stand on the two cards originally dealt him, or he may ask the dealer for
 additional cards, one at a time, until he either decides to stand on the total (if it is 21 or under), goes "bust" (if it is over 21),
 or gets exactly 21  in which case he wins, unless another player does the same. face cards equal 10, number cards equal thier number and 
@@ -9,25 +13,32 @@ aces have a vaule of 11.
 Instuctions Sequence:
 1. Dealer deals 2 cards to everybody
 2. Look over your cards and if the cards equal 21 say blackjack
-3. If they didnt equal 21 but are above a combined value of 17 then say "stand" and wait till everybody is done, then show your cards.
-4. If your cards didnt even reach a value 17 then say "hit" 
-5. If the combined value of the 3 cards are above 17 then say "stand" and wait till everybody is done, then show your cards.  
-6. If the combibed value of the 3 cards isnt equal to 21 then continue the process of saying "hit" until you have a combine value 
-of 17-21 you should have a total of 11 cards or less. 
-7. If the combined value of your cards at any point exceed 21 then say "bust" and wait till the next round.
+3. If the cards recieved don't equal 21 but are above a combined value of 17;
+      Then say "stand" and wait until the opponents are done with their turns.
+       If all the players complete their turns;
+              Then show your cards to the other players. 
+4. If your cards didn't even reach a value 17 
+      Then say "hit" 
+5. If the combined value of the 3 cards are above 17 
+      Then say "stand" and wait until the opponents are done with their turns.
+        If all the players complete their turns;
+              Then show your cards to the other players.  
+6. If the combibed value of the 3 cards isnt equal to 21;
+      Then continue the process of saying "hit" until you have a combine valued of 17-21. You should have a total of 11 cards or less. 
+7. If the combined value of your cards at any point exceed 21 then say "bust," meaning you have lost and must wait till the next round.
 
 Instuctions Selection:
 Once you recived the 2 cards from the dealer look over them
-  If: the 2 cards have a vaule equal to 21 
-    Say "blackjack", then show your cards
-  Else If: the 2 cards dont equal 21 and are equal to or over 17 but under 21 
-    Say "stand" and place your cards on the table till everybody is done, then show your cards
-  Else: the 2 cards equal a value less than 17
-    Say "hit" and you will recive another card
-      If: the value of your 3 cards is less than 17
-        Say "hit" until a value over 17 at the max ou should have 11 cards.
-        If: your cards value are over 17 and under 21
-            Place your cards down and wait till everybody is done, then show your cards
+  If the 2 cards have a vaule equal to 21; 
+    Then say "blackjack", then show your cards
+  Else If the 2 cards dont equal 21 and are equal to or over 17 but under 21 
+    Then say "stand" and place your cards on the table till everybody is done, then show your cards
+  Else the 2 cards equal a value less than 17
+    Then say "hit" and you will recive another card
+      If the value of your 3 cards is less than 17;
+        Then say "hit" until a value over 17 at the max ou should have 11 cards.
+          If your cards value are over 17 and under 21;
+            Then place your cards face down and wait till everybody is done, then show your cards
         Else If: you went over the value of 21
             Say "bust" and wait for the next round
           
